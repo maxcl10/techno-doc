@@ -30,7 +30,7 @@ git reset --hard origin/branch-name
 git reset --hard origin/main
 ```
 
-## Remove all stale remote branch
+## Delete branch references to remote branches that do not exist anymore.
 
 ```console
 git remote prune origin
@@ -47,6 +47,18 @@ If the branch has the same name
 
 ```console
 git push -u origin HEAD
+```
+
+## Stash
+
+```console
+git stash
+```
+
+To get back the stashed changes
+
+```console
+git stash pop
 ```
 
 ## To untrack a tracked file
