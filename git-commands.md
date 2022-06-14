@@ -66,3 +66,18 @@ git stash pop
 ```console
 git rm -r --cached .vs/
 ```
+
+## Aliases
+
+To create a new alias.
+
+```console
+ git config --global alias.co checkout
+
+```
+
+To view existing aliases
+
+```console
+ git config --get-regexp alias
+```
