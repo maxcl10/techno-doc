@@ -14,4 +14,4 @@ curl google.com
 
 ### With bearer token to see the header
 
-curl -s -D- -H "Authorization: Bearer %token%" https://pax.app.lufthansa.com/api/catalogs/airlines 
+curl -s -D- -H "Authorization: Bearer %token%" https://google.com
