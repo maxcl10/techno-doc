@@ -92,7 +92,7 @@ Endpoints to see LH Group tenant public keys: <https://login.microsoftonline.com
 
 Each key provided by the identity provider has a key ID (kid) which is the identifier of the public key to use in order to verify the token signature.
 
-In the header of the JWT token we can find the information which key we need to use in order to valided the token.
+In the header of the JWT token we can find the information which key we need to use in order to validated the token.
 
 ```json
 {

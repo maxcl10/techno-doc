@@ -13,4 +13,4 @@ Preceded by `?` and encoded as key value pairs delimited by `&`.
 
 Preceded by `#`
 
-Optional: The path, The port, other querystring, segment
+Optional: The path, The port, other query string, segment

@@ -8,4 +8,4 @@ Challenge/response protocol to authenticate user with sending the password over 
 
 ## Kerberos
 
-Authentication protocol whicj is more secure.
+Authentication protocol which is more secure.

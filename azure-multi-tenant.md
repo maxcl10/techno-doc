@@ -4,7 +4,7 @@
 
 1. Configure both the UI and API app registrations to be multi-tenant
    Azure Active Directory -> Authentication
-   Switch from Single Tenant to Multitenant
+   Switch from Single Tenant to Multi tenant
    ![Azure multi-tenant configuration](resources/azure-multi-tenant.png)
 
 2. Update your code so that  
