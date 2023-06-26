@@ -14,4 +14,6 @@ curl google.com
 
 ### With bearer token to see the header
 
+```command
 curl -s -D- -H "Authorization: Bearer %token%" https://google.com
+```
