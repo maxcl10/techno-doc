@@ -10,3 +10,8 @@ curl google.com
 | -i, --include                | Include protocol response headers in the output |
 | -X, --request \<command>     | Specify request command to use                  |
 | -H, --header \<header/@file> | Pass custom header(s) to server                 |
+| -D
+
+### With bearer token to see the header
+
+curl -s -D- -H "Authorization: Bearer %token%" https://pax.app.lufthansa.com/api/catalogs/airlines 
