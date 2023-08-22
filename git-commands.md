@@ -23,6 +23,12 @@ git branch -d -r <branch-name>
 
 -r delete remote-tracking branches.
 
+## Rename a local branch
+
+```console
+git branch -m new-branch-name
+```
+
 ## Get the origin version and override the local changes
 
 ```console
